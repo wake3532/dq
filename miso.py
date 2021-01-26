@@ -20,10 +20,7 @@ async def on_ready():
     print(' ')
     print('닉네임 : {}'.format(client.user.name))
     print('아이디 : {}'.format(client.user.id))
-    
-    
-@client.event
-async def on_message(message):
+
 
 @client.event
 async def on_member_join(member):
