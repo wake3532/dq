@@ -26,7 +26,7 @@ async def on_ready():
 async def on_member_join(member):
     embed=discord.Embed(title="<:4114110118_pandaclipartemojipand:798106315716952074> 익명님이 입장하셧습니다. 환영해요!")
     embed.set_image(url="https://media.discordapp.net/attachments/760040615781072946/803580701819142184/banner.gif")
-    await message.channel.send(embed=embed)
+    await guild.system_channel.send(embed=embed)
 
 
 access_token = os.environ["BOT_TOKEN"]
