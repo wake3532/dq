@@ -27,7 +27,7 @@ async def on_member_join(member):
     try:
         sysc = member.guild.system_channel
         embed = discord.Embed(title=":4114110118_pandaclipartemojipand: 익명님이 입장하셧습니다. 환영해요!")
-        embed.set_image(url="https://media.discordapp.net/attachments/760040615781072946/803580701819142184/banner.gif%22")
+        embed.set_image(url="https://media.discordapp.net/attachments/731412060541288518/804505956624236565/max-res.gif")
         await sysc.send(embed=embed)
     except:
         pass
